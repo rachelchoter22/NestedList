@@ -163,7 +163,7 @@ function buildInnerDivReq(item,level) {
     div = document.createElement("div");
 
     div.innerText = `id: ${item.id}`;
-    div.className = 'level'+level;
+    div.className = `level${level}`;
 
     if (item.subData) {
         item.subData.forEach((innerItem) => {
